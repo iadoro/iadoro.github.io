@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <title>Aditi Gupta</title>
+  </head>
+  <body>
+    <!-- <p class="marquee">
+      <a
+        id="annoucement"
+        aria-label="Link to announcement (Opens in a new tab)"
+        target="_blank"
+        href=""
+      >
+        <span>
+          𓆙 . . . . . . . . . . . . . . . . . . . . . . . . . 𓆙 . . . . . . 𓆙 . . . . . . . . . . . . . . .
+        </span>
+      </a>
+    </p> -->
+    <p class="nav-wrapper">
+    <nav class="nav">
+      <p class="nav-link">
+        <a href="index.html">index</a>
+      </p>
+      <p class="nav-link">
+        <a class="active" href="index.html">
+          aditi gupta
+        </a>
+      </p>
+      <p class="nav-link">
+        <a href="about.html">about</a>
+      </p>
+    </nav>
+    </p>
+    <main>
+      <div
+        style="top: 74%; left: 57%; max-width: 250px; min-width: 100px"
+        class="entry"
+      >
+        <a
+          target="_blank"
+          href="https://editor.p5js.org/adoro/full/GiXf1dElY"
+        >
+          <img alt="" src="p5-sketches/sound-interaction-2.gif" />
+        </a>
+      </div>
+      <div
+        style="top: 24%; left: 37%; max-width: 350px; min-width: 100px"
+        class="entry"
+      >
+        <a target="_blank" href="">
+          <img alt="" src="p5-sketches/final.gif" />
+        </a>
+      </div>
+      <div
+        style="top: 24%; left: 37%; max-width: 300px; min-width: 100px"
+        class="entry"
+      >
+        <a target="_blank" href="https://iadoro.github.io/midterm/">
+          <img alt="" src="p5-sketches/sound-1.gif" />
+        </a>
+      </div>
+      <div
+        style="top: 14%; left: 67%; max-width: 300px; min-width: 100px"
+        class="entry"
+      >
+        <a target="_blank" href="https://iadoro.github.io/time-in-twelves/">
+          <img alt="" src="p5-sketches/time-in-twelves.gif" />
+        </a>
+      </div>
+      <div
+      style="top: 14%; left: 67%; max-width: 300px; min-width: 100px"
+      class="entry"
+    >
+      <a target="_blank" href="https://github.com/iadoro/falling-fruit">
+        <img alt="" src="p5-sketches/falling-fruit.gif" />
+      </a>
+    </div>
+    </main>
+    <script>
+      var divs = document.getElementsByTagName("div");
+      var winWidth = window.innerWidth;
+      var winHeight = window.innerHeight;
+
+      for (var i = 0; i < divs.length; i++) {
+        var thisDiv = divs[i];
+
+        randomTop = getRandomNumber(60, winHeight - 160);
+        randomLeft = getRandomNumber(0, winWidth - 100);
+
+        thisDiv.style.top = randomTop + "px";
+        thisDiv.style.left = randomLeft + "px";
+      }
+
+      function getRandomNumber(min, max) {
+        return Math.random() * (max - min) + min;
+      }
+    </script>
+  </body>
+</html>
