@@ -25,8 +25,7 @@ a:visited {
 
 a:hover {
   text-decoration: none;
-  color: #fafafa;
-  background-color: #ff4081;
+  color: #ff4081;
   font-size: 24px;
   /* color: #ff5500;
   text-shadow: 2px 2px 2px #00f, -2px -2px 2px #f00, 0 0 10px #0f0;
@@ -61,13 +60,12 @@ NAV
 
 .nav-link a:hover {
   text-decoration: none;
-  color: #fafafa;
+  color: #ff4081;
 }
 
 .nav-link a.active {
   text-decoration: none;
   color: #784730;
-  background-color: #fafafa;
 }
 
 .entry {
