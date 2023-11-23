@@ -7,6 +7,7 @@ body {
   padding-left: 10px;
   padding-right: 10px;
   font-family: "diatype", "AUTHENTICSans", "Arial", sans-serif;
+  line-height: 1.1em;
 }
 
 a:link {
@@ -19,6 +20,10 @@ a:visited {
 
 a:hover {
   text-decoration: none;
+  /* color: #ff5500;
+  font-size: 26px;
+  text-shadow: 2px 2px 2px #00f, -2px -2px 2px #f00, 0 0 10px #0f0;
+  mix-blend-mode: difference; */
 }
 
 a:active {
@@ -121,4 +126,8 @@ NAV
   100% {
     transform: translate(-70%, 0);
   }
+}
+
+div.text {
+  max-width: 32rem;
 }
