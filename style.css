@@ -4,10 +4,15 @@
 }
 
 body {
+  background-color: #fafafa;
   padding-left: 10px;
   padding-right: 10px;
   font-family: "diatype", "AUTHENTICSans", "Arial", sans-serif;
   line-height: 1.1em;
+}
+
+a {
+  color: #009688;
 }
 
 a:link {
@@ -20,8 +25,10 @@ a:visited {
 
 a:hover {
   text-decoration: none;
+  color: #fafafa;
+  background-color: #ff4081;
+  font-size: 24px;
   /* color: #ff5500;
-  font-size: 26px;
   text-shadow: 2px 2px 2px #00f, -2px -2px 2px #f00, 0 0 10px #0f0;
   mix-blend-mode: difference; */
 }
@@ -49,11 +56,18 @@ NAV
 
 .nav-link a {
   text-decoration: none;
+  color: #009688;
+}
+
+.nav-link a:hover {
+  text-decoration: none;
+  color: #fafafa;
 }
 
 .nav-link a.active {
   text-decoration: none;
   color: #784730;
+  background-color: #fafafa;
 }
 
 .entry {
